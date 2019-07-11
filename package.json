@@ -1,0 +1,22 @@
+{
+  "name": "vap0rwave-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "An 80s vaporwave/outrun syntax theme with NEON",
+  "keywords": [
+    "syntax",
+    "theme",
+    "vaoprwave",
+    "outrun",
+    "80s",
+    "vapor",
+    "wave",
+    "out",
+    "run"
+  ],
+  "repository": "https://github.com/Brunellus/vap0rwave-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

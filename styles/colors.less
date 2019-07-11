@@ -1,0 +1,36 @@
+
+// Config -----------------------------------
+@syntax-hue:          220;
+@syntax-saturation:   60%;
+@syntax-brightness:   90%;
+
+
+// Monochrome -----------------------------------
+@light-pink: rgb(244, 76, 223); // <-light pink// rgb(222,98,135); // variable names, app., {(,;
+@mono-2: hsl(@syntax-hue,  9%, 55%);
+@mono-3: hsl(@syntax-hue, 10%, 40%);
+
+// Colors -----------------------------------
+@sunglow-red:   hsl(1, 50%, 46%);//<-reddish hsl(50, 100%, 50%); // <-yellow, requires, operators
+@star-pink:   rgb(211,174,207);//<-star pink, string rgb(255,157,134)
+@white-cyan:   hsl(178, 100%, 75%); // <-white cyan, property name
+@ghoul-green-shortcut:   @ghoul-green; //hsl(300, 100%, 80%); // <-white magenta, keywords
+@light-magenta: hsl(300, 100%, 75%); // <-light magenta, string interpolation
+@light-blue:   #2BC0E4; // <-light-blue, function name
+@ghoul-green: hsl(147, 100%, 50%); // <-ghoul green, numerical expressions
+@lemon-lime: hsl(81, 100%, 60%); // <-lemon lime
+
+// Base colors -----------------------------------
+@syntax-fg:     @light-pink;
+@syntax-bg:    #000;
+@syntax-gutter: darken(@syntax-fg, 26%);
+@syntax-guide:  fade(@syntax-fg, 15%);
+@syntax-accent: @light-magenta;
+
+.neon(@amt, @color){
+    text-shadow: 0px 0px @amt @color;
+}
+
+.outline(@color){
+  text-shadow: -1px 0 @color, 0 1px @color, 1px 0 @color, 0 -1px @color;
+}
