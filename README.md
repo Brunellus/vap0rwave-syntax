@@ -3,5 +3,4 @@
 This is an 80's vaporwave/outrun theme full of Magenta, cyan, and NEON.
 
 
-I recommend installing editor-background and using a cool picture in the background!!
-<a href="http://en.wikipedia.org/wiki/Petersen_graph">Petersen Graph</a>
+I recommend installing <a href="https://atom.io/packages/editor-background">editor-background</a> by <a href ="https://github.com/camel-chased">camel-chased</a> and using a cool picture in the background!!
